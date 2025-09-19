@@ -58,7 +58,7 @@ const Collection = () => {
         setFilterProducts(fpCopy.sort((a, b) => b.price - a.price));
         break;
       default:
-        applyFilter(); // relevant = reset to filtered order
+        applyFilter();
         break;
     }
   };
@@ -67,15 +67,12 @@ const Collection = () => {
     setFilterProducts(products);
   }, [products]);
 
-  // ✅ one effect for filters & search (remove the duplicate one you had)
   useEffect(() => {
     applyFilter();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category, topOnly, search]);
 
   useEffect(() => {
     sortProduct();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sortType]);
 
   const resultsCount = filterProducts.length;
@@ -155,7 +152,7 @@ const Collection = () => {
 
       {/* Main */}
       <main className="flex-1">
-        {/* Header row with count + sort */}
+        
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
           <div>
             <div className="flex items-end gap-3">
@@ -163,7 +160,6 @@ const Collection = () => {
               <span className="text-sm text-gray-600 pb-1">{resultsCount} items</span>
             </div>
 
-            {/* Active chips */}
             {(category.length > 0 || topOnly || (search && search.trim())) && (
               <div className="mt-2 flex flex-wrap items-center gap-2">
                 {category.map((c) => (
