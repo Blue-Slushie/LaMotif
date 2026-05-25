@@ -44,20 +44,30 @@ export const assets = {
 
 export const products = [
 {
-    _id: "aaabb",
-    name: "Freshwater Pearl Kundan Choker Set",
+    _id: "aaaaa",
+    name: "Freshwater Pearl Kundan Choker",
     description: "One choker and multiple ways of wearing it. Exude refinement with our elegant freshwater pearl hand-beaded designer choker set enhanced with kundan focals paired with studs, crafted to elevate your formal attire with enduring charm.",
-    price: ,
+    price: 248,
     image: [Screenshot_2026_05_24_230711],
     category: "Necklaces",
-    subCategory: "Sets",
+    subCategory: "Kundan",
+    bestseller: true
+},
+ {
+ _id: "aaaab",
+    name: "Freshwater Pearl Kundan Earrings",
+    description: "One choker and multiple ways of wearing it. Exude refinement with our elegant freshwater pearl hand-beaded designer choker set enhanced with kundan focals paired with studs, crafted to elevate your formal attire with enduring charm.",
+    price: 105,
+    image: [Screenshot_2026_05_24_230711],
+    category: "Earrings",
+    subCategory: "Kundan",
     bestseller: true
 },
 {
-    _id: "aaabc",
+    _id: "aaaac",
     name: "Designer Statement Necklace Set",
     description: "Elevate your modern sophistication in style with our exquisite designer statement necklace set, ideal for pairing with chic modern outfits to Indian ethnic outfits. 92.5 silver based.",
-    price: 30,
+    price: 508,
     image: [Screenshot_2026_05_24_232042],
     category: "Necklaces",
     subCategory: "Sets",
