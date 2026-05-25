@@ -47,7 +47,7 @@ export const products = [
     _id: "aaabb",
     name: "Freshwater Pearl Kundan Choker Set",
     description: "One choker and multiple ways of wearing it. Exude refinement with our elegant freshwater pearl hand-beaded designer choker set enhanced with kundan focals paired with studs, crafted to elevate your formal attire with enduring charm.",
-    price: 30,
+    price: ,
     image: [Screenshot_2026_05_24_230711],
     category: "Necklaces",
     subCategory: "Sets",
