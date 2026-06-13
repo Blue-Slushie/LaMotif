@@ -1,28 +1,3 @@
-import IMG_4786 from './IMG_4786.png'
-import IMG_4787 from './IMG_4787.png'
-import IMG_4788 from './IMG_4788.png'
-import IMG_4789 from './IMG_4789.png'
-import IMG_4790 from './IMG_4790.png'
-import IMG_4791 from './IMG_4791.png'
-import IMG_4792 from './IMG_4792.png'
-import IMG_4793 from './IMG_4793.png'
-import IMG_4797 from './IMG_4797.jpeg'
-import IMG_4798 from './IMG_4798.jpeg'
-import IMG_4799 from './IMG_4799.jpeg'
-import IMG_4800 from './IMG_4800.jpeg'
-import IMG_4801 from './IMG_4801.jpeg'
-import IMG_4802 from './IMG_4802.jpeg'
-import IMG_4803 from './IMG_4803.jpeg'
-import IMG_4804 from './IMG_4804.jpeg'
-import IMG_4805 from './IMG_4805.jpeg'
-import IMG_4809 from './IMG_4809.jpeg'
-import IMG_4810 from './IMG_4810.jpeg'
-import IMG_4811 from './IMG_4811.jpeg'
-import IMG_4812 from './IMG_4812.jpeg'
-import IMG_4813 from './IMG_4813.jpeg'
-import IMG_4814 from './IMG_4814.jpeg'
-import IMG_4815 from './IMG_4815.jpeg'
-import IMG_4816 from './IMG_4816.jpeg'
 import logo from './logo.png'
 import search from './search.png'
 import profile from './profile.png'
@@ -39,7 +14,14 @@ import IMG_001 from './IMG_001.png'
 import IMG_002 from './IMG_002.png'
 import IMG_003 from './IMG_003.png'
 import IMG_004 from './IMG_004.png'
-import IMG_4900 from './IMG_4900.png'
+
+ import Screenshot_2026_05_24_230711 from './Screenshot-2026-05-24-230711.jpg'
+import Screenshot_2026_05_24_232042 from './Screenshot 2026-05-24 232042.jpg'
+import Screenshot_2026-06-12_222911 from './Screenshot 2026-06-12 222911.jpg'
+import Screenshot_2026-06-12_223110 from './Screenshot 2026-06-12 223110.jpg'
+import Screenshot_2026-06-12_223152 from './Screenshot 2026-06-12 223152.jpg'
+import Screenshot_2026-06-12_223222 from './Screenshot 2026-06-12 223222.jpg'
+import Screenshot_2026-06-12_223253 from './Screenshot 2026-06-12 223253.jpg'
 
 export const images = [
     IMG_001,
@@ -61,114 +43,91 @@ export const assets = {
     profile,
     search,
     logo,
-    IMG_4786,
-    IMG_4787,
-    IMG_4788,
-    IMG_4789,
-    IMG_4790,
-    IMG_4791,
-    IMG_4792,
-    IMG_4793,
-    IMG_4797,
-    IMG_4798,
-    IMG_4799,
-    IMG_4800,
-    IMG_4801,
-    IMG_4802,
-    IMG_4803,
-    IMG_4804,
-    IMG_4805,
-    IMG_4809,
-    IMG_4810,
-    IMG_4811,
-    IMG_4812,
-    IMG_4813,
-    IMG_4814,
-    IMG_4815,
-    IMG_4816
+    Screenshot_2026_05_24_230711,
+    Screenshot_2026_05_24_232042,
 }
 
 export const products = [
-    {
-        _id: "aaaaa",
-        name: "Jewelry 1",
-        description: "Introducing Bhamri from the Banjaran collection. Immerse yourself in our newest folk tribal vibrant lines, perfect for pairing with your garba outfits. Inspired by tribal nomad jewelry motifs, their widely popular amulets and ever-smart shape motifs featuring natural corals, turquoise, pearls, and ghungru drops, suspended on black cords with tribal silver beads. These exotic lines will add a touch of elegance and make you dance to Garba Dandiya beats like never before, while adding a pop of style to your dress. On 92.5 silver.",
-        price: 30,
-        image: [IMG_4786],
-        category: "Necklaces",
-        subCategory: "NULL",
-        bestseller: true
-    },
-    {
-        _id: "aaaab",
-        name: "Jewelry 2",
-        description: "Introducing Bhamri from the Banjaran collection. Immerse yourself in our newest folk tribal vibrant lines, perfect for pairing with your garba outfits. Inspired by tribal nomad jewelry motifs, their widely popular amulets and ever-smart shape motifs featuring natural corals, turquoise, pearls, and ghungru drops, suspended on black cords with tribal silver beads. These exotic lines will add a touch of elegance and make you dance to Garba Dandiya beats like never before, while adding a pop of style to your dress. On 92.5 silver.",
-        price: 30,
-        image: [IMG_4787],
-        category: "Necklaces",
-        subCategory: "NULL",
-        bestseller: true
-    },
-    {
-        _id: "aaaac",
-        name: "Jewelry 3",
-        description: "Introducing Bhamri from the Banjaran collection. Immerse yourself in our newest folk tribal vibrant lines, perfect for pairing with your garba outfits. Inspired by tribal nomad jewelry motifs, their widely popular amulets and ever-smart shape motifs featuring natural corals, turquoise, pearls, and ghungru drops, suspended on black cords with tribal silver beads. These exotic lines will add a touch of elegance and make you dance to Garba Dandiya beats like never before, while adding a pop of style to your dress. On 92.5 silver.",
-        price: 30,
-        image: [IMG_4788],
-        category: "Necklaces",
-        subCategory: "NULL",
-        bestseller: false
-    },
-    {
-        _id: "aaaad",
-        name: "Jewelry 4",
-        description: "Introducing Bhamri from the Banjaran collection. Immerse yourself in our newest folk tribal vibrant lines, perfect for pairing with your garba outfits. Inspired by tribal nomad jewelry motifs, their widely popular amulets and ever-smart shape motifs featuring natural corals, turquoise, pearls, and ghungru drops, suspended on black cords with tribal silver beads. These exotic lines will add a touch of elegance and make you dance to Garba Dandiya beats like never before, while adding a pop of style to your dress. On 92.5 silver.",
-        price: 30,
-        image: [IMG_4789],
-        category: "Necklaces",
-        subCategory: "NULL",
-        bestseller: true
-    },
-    {
-        _id: "aaaae",
-        name: "Jewelry 5",
-        description: "These edgy Juda pins, made from 92.5 silver, will add a touch of style to your ethnic attire.",
-        price: 30,
-        image: [IMG_4790, IMG_4900],
-        category: "Juda Pins",
-        subCategory: "NULL",
-        bestseller: false
-    },
-    {
-        _id: "aaaaf",
-        name: "Jewelry 6",
-        description: "Elevate your Navrati celebrations with our stunning Jhumur cuff bracelet collection, featuring adjustable cuff bracelets that combine style, charm, and a touch of folk elegance. As a limited edition offering, these lightweight, flexible, and expertly crafted pieces are sure to be in high demand.",
-        price: 30,
-        image: [IMG_4791],
-        category: "Bracelets",
-        subCategory: "NULL",
-        bestseller: false
-    },
-    {
-        _id: "aaaag",
-        name: "Jewelry 7",
-        description: "Elevate your Navrati celebrations with our stunning Jhumur cuff bracelet collection, featuring adjustable cuff bracelets that combine style, charm, and a touch of folk elegance. As a limited edition offering, these lightweight, flexible, and expertly crafted pieces are sure to be in high demand. ",
-        price: 30,
-        image: [IMG_4792],
-        category: "Bracelets",
-        subCategory: "NULL",
-        bestseller: false
-    },
-    {
-        _id: "aaaah",
-        name: "Jewelry 8",
-        description: "Jhumur: Enchanting tribal charms vintage and 92.5 added on natural Coral lines to created boho folk fashion fothag exotic boho couture style that you are looking to add to your ethnic wears to  mod chic outfits. ",
-        price: 30,
-        image: [IMG_4793],
-        category: "Necklaces",
-        subCategory: "NULL",
-        bestseller: true
-    },
-    
-    
+{
+    _id: "aaaaa",
+    name: "Freshwater Pearl Kundan Choker",
+    description: "One choker and multiple ways of wearing it. Exude refinement with our elegant freshwater pearl hand-beaded designer choker set enhanced with kundan focals paired with studs, crafted to elevate your formal attire with enduring charm.",
+    price: 248,
+    image: [Screenshot_2026_05_24_230711],
+    category: "Necklaces",
+    subCategory: "Kundan",
+    bestseller: true
+},
+ {
+ _id: "aaaab",
+    name: "Freshwater Pearl Kundan Earrings",
+    description: "One choker and multiple ways of wearing it. Exude refinement with our elegant freshwater pearl hand-beaded designer choker set enhanced with kundan focals paired with studs, crafted to elevate your formal attire with enduring charm.",
+    price: 105,
+    image: [Screenshot_2026_05_24_230711],
+    category: "Earrings",
+    subCategory: "Kundan",
+    bestseller: true
+},
+{
+    _id: "aaaac",
+    name: "Charaka",
+    description: "Make a bold yet earthy statement with this handcrafted fusion necklace. A smooth, 92.5 silver kada recreated into crescent forms the base, suspended from a rich maroon, hand-braided cotton cord with an adjustable tassel tie. Dropped with a vintage silver from pendant with delicate filigree work from Orissa. Pairs beautifully with handloom sarees, linen kurtas, or even a plain white shirt for a modern twist. The maroon thread adds warmth, while the filigree top style drop brings heritage charm.",
+    price: ,
+    image: [Screenshot_2026_06_12_222911],
+    category: "Necklaces",
+    bestseller: true
+},
+ _id: "aaaad",
+    name: "Designer Statement Necklace Set",
+    description: "Elevate your modern sophistication in style with our exquisite designer statement necklace set, ideal for pairing with chic modern outfits to Indian ethnic outfits. 92.5 silver based.",
+    price: 508,
+    image: [Screenshot_2026_05_24_232042],
+    category: "Necklaces",
+    subCategory: "Sets",
+    bestseller: true
+},
+_id: "aaaae",
+    name: "Duarsini Kundan Necklace Set",
+    description: "Elevate your modern sophistication in style with our exquisite designer statement necklace set, ideal for pairing with chic modern outfits to Indian ethnic outfits. 92.5 silver based.",
+    price: 508,
+    image: [Screenshot_2026_06_12_222945],
+    category: "Necklaces",
+    subCategory: "Sets",
+    bestseller: true
+},
+_id: "aaaaf",
+    name: "Piu Choker",
+    description: "The symphony of birdsong and fresh breeze of spring signals the onset of luminous summer days, filled with vitality and beauty. Our Piu choker collection captures this poetic sentiment, boasting understated styles that enhance your cute spring and summer outfits. Choker 1 set: vintage base accented with 92.5 bird motifs Choker 2: 92.5 silver",
+    price: ,
+    image: [Screenshot_2026_06_12_223110],
+    category: "Choker",
+    bestseller: true
+},
+_id: "aaaag",
+    name: "Jhumur Tribal Necklace",
+    description: "Jhumur In the realm of silver jewelry, tribal designs are particularly cherished for their distinctive style, which not only imparts an ethnic, earthy, and rustic charm but also offers versatility in pairing with modern Indo-Western fusion wear, linen tunics, or traditional ethnic sarees. Pendant Accent features a prominent central Rajasthani Borla charm inset with a tiny crimson gemstone focal point. Accented along the neckline with silver mango/leaf-shaped dangling trinket charms. Bound onto an adjustable, hand-woven dual-tone black and fuchsia-pink cotton thread cord. Our collection is based on vintage silver. ",
+    price: ,
+    image: [Screenshot_2026_06_12_223152],
+    category: "Necklaces",
+    subcategory: "Tribal",
+    bestseller: true
+},
+_id: "aaaah",
+    name: "Jhumur Tribal Necklace",
+    description: "In the realm of silver jewelry, tribal designs are particularly cherished for their distinctive style, which not only imparts an ethnic, earthy, and rustic charm but also offers versatility in pairing with various outfits, from bohemian chic to modern sophistication. Our collection is based on vintage silver.. ",
+    price: ,
+    image: [Screenshot_2026_06_12_223222],
+    category: "Necklaces",
+    subCategory: "Tribal",
+    bestseller: true
+},
+_id: "aaaai",
+    name: "Jhumur Tribal Necklace",
+    description: "Elevate your modern sophistication in style with our exquisite designer statement necklace set, ideal for pairing with chic modern outfits to Indian ethnic outfits. 92.5 silver based.",
+    price: ,
+    image: [Screenshot_2026_06_12_223253],
+    category: "Necklaces",
+    subCategory: "Tribal",
+    bestseller: true
+},
 ]
